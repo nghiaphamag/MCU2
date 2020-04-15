@@ -1,0 +1,20 @@
+00:54:57 **** Incremental Build of configuration Debug for project BASIC_TIMER_6_100ms ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F446xx -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "BASIC_TIMER_6_100ms.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\AD\Desktop\MCU-1_Course\MCU2\BASIC_TIMER_6_100ms\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BASIC_TIMER_6_100ms.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BASIC_TIMER_6_100ms.elf
+ 
+arm-none-eabi-objdump -h -S  BASIC_TIMER_6_100ms.elf  > "BASIC_TIMER_6_100ms.list"
+arm-none-eabi-objcopy  -O binary  BASIC_TIMER_6_100ms.elf  "BASIC_TIMER_6_100ms.bin"
+arm-none-eabi-size   BASIC_TIMER_6_100ms.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4040	     20	   1636	   5696	   1640	BASIC_TIMER_6_100ms.elf
+Finished building: default.size.stdout
+Finished building: BASIC_TIMER_6_100ms.bin
+ 
+Finished building: BASIC_TIMER_6_100ms.list
+ 
+ 
+
+00:55:00 Build Finished. 0 errors, 0 warnings. (took 2s.797ms)
+

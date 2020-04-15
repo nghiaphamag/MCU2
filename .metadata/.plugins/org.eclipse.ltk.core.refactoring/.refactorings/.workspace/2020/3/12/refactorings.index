@@ -1,0 +1,6 @@
+1584457984379	Delete resource 'USART2_Example/Src/sysmem.c'
+1584457987440	Delete resource 'USART2_Example/Src/syscalls.c'
+1584541869649	Delete resource 'SYSCLK_PLL/SYSCLK_8Mhz_FROM_HSE Debug.launch'
+1584545581748	Delete resource 'SYSCLK_PLL/Debug/SYSCLK_8MHz_FROM_HSE.elf'
+1584545587752	Delete resource 'SYSCLK_PLL/Debug/SYSCLK_8Mhz_FROM_HSE.bin'
+1584545591643	Delete resource 'SYSCLK_PLL/Debug/SYSCLK_8Mhz_FROM_HSE.list'
